@@ -1,0 +1,180 @@
+body {
+  font-family: 'Muli', sans-serif;
+  position: relative;
+}
+
+.navbar {
+  background-color: #141B5D !important;
+}
+
+
+.navbar-brand {
+  color: white !important ;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.nav-link {
+  color: white !important;
+  font-size: 16px;
+  font-weight: 600;
+}
+.nav-link.signup-btn {
+  background-color: #3DC794;
+  border-color: #3DC794;
+}
+.nav-link.state-btn {
+  border-color: #3DC794;
+  color: #3DC794 !important;
+}
+.nav-link.state-btn:hover {
+  background-color: #3DC794;
+  border-color: #3DC794;
+  color: white !important;
+}
+
+.nav-link i {
+  font-size: 12px;
+
+}
+
+/** =================== JUMBOTRON STYLES ================== **/
+
+.jumbotron {
+  background-image: linear-gradient(to right, #141B5D, #4756A7);
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+  height: 90vh;
+}
+.jumbotron h1 {
+  font-size: 48px;
+  line-height: 60px;
+  font-weight: 800;
+  width: 60%;
+}
+.jumbotron p {
+  color: #C9CBDD;
+  width: 60%;
+}
+.jumbotron .update p {
+  background-color: #2C3780;
+  color: white;
+  border-radius: 20px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+.jumbotron .update {
+  margin-bottom: 25px;
+}
+.jumbotron .update p span {
+  font-size: 12px;
+  background-color: #3DC794;
+  border-radius: 20px;
+  margin-bottom: 0px;
+
+}
+.jumbotron .start-btn {
+  background-color: #3DC794;
+  border-color: #3DC794;
+}
+.jumbotron .start-btn:focus, .jumbotron .start-btn:active {
+  box-shadow: none;
+  background-color: #3DC794;
+  border-color: #3DC794;
+}
+
+.header-image {
+  position: absolute;
+  top: 120px;
+  right: 30px;
+  width: 600px;
+  
+}
+
+/** =======================DEVLOPERS SECTION ======================== **/
+
+.developers {
+  padding: 20px;
+}
+.developers h2 {
+  font-weight: 300;
+  color: #212CA6;
+}
+
+.developers .dev-card {
+  background-color: #BCDEFA;
+  border-radius: 20px;
+}
+.developers .dev-card img {
+  border: 3px solid #EFF8FF;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+.developers .dev-card .dev-level {
+  color: #2D8F98;
+}
+.developers .dev-card .dev-icons i {
+  font-size: 18px;
+}
+.developers .dev-card .dev-icons .github-icon {
+  color: black;
+}
+.developers .dev-card .dev-icons .camera-icon {
+  color: #3DC794;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*================================= MEDIA QUERIES ==============================*/
+
+@media (max-width: 800px) {
+
+  .navbar-nav .state-btn {
+     margin: 5px 0px;
+  }
+
+  .jumbotron {
+    text-align: center;
+  }
+  .jumbotron h1 {
+    font-size: 28px;
+    width: 100%;
+  }
+  .jumbotron p {
+    font-size: 14px;
+    width: 100%;
+  }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
